@@ -84,7 +84,7 @@
           "name": "DietPi",
           "repo": "MichaIng/DietPi",
           "current_version": "9.19.2",
-          "approved_version": "9.18.1",
+          "approved_version": "9.19.2",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": true,
