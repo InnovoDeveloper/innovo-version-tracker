@@ -58,7 +58,7 @@
           "current_version": "1.0.0",
           "approved_version": "1.0.0",
           "dietpi_id": null,
-          "download_url": "https://github.com/InnovoDeveloper/mc-playa/releases/download/v1.0.0/mc-ui.tar.gz",
+          "download_url": "https://github.com/InnovoDeveloper/mc-playum/releases/download/v1.0.0/mc-ui.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
