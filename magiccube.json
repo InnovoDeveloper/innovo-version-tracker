@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "description": "Innovo Software Version Tracking",
+    "last_updated": "2025-12-01T00:00:00Z"
+  },
+  "devices": {
+    "mcplayum": {
+      "model": "MCPlayum",
+      "packages": [
+        {
+          "id": "squeezelite",
+          "name": "Squeezelite",
+          "repo": "ralph-irving/squeezelite",
+          "current_version": "2.0.0-1541",
+          "approved_version": "2.0.0-1541",
+          "dietpi_id": 36,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "raspotify",
+          "name": "Raspotify",
+          "repo": "dtcooper/raspotify",
+          "current_version": "0.48.1",
+          "approved_version": "0.48.1",
+          "dietpi_id": 167,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "shairport-sync",
+          "name": "Shairport-Sync",
+          "repo": "mikebrady/shairport-sync",
+          "current_version": "4.3.7",
+          "approved_version": "4.3.7",
+          "dietpi_id": 37,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "dietpi",
+          "name": "DietPi",
+          "repo": "MichaIng/DietPi",
+          "current_version": "9.19.2",
+          "approved_version": "9.18.1",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": true,
+          "update_method": "dietpi-update"
+        },
+        {
+          "id": "mc-ui",
+          "name": "MC-UI",
+          "repo": null,
+          "current_version": "1.0.0",
+          "approved_version": "1.0.0",
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/mc-playa/releases/download/v1.0.0/mc-ui.tar.gz",
+          "requires_reboot": false,
+          "update_method": "download"
+        }
+      ]
+    },
+
+    "aura": {
+      "model": "Aura",
+      "packages": [
+        {
+          "id": "lms",
+          "name": "Lyrion Music Server",
+          "repo": "LMS-Community/slimserver",
+          "current_version": "9.1.0",
+          "approved_version": "9.1.0",
+          "dietpi_id": 35,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "dietpi",
+          "name": "DietPi",
+          "repo": "MichaIng/DietPi",
+          "current_version": "9.19.2",
+          "approved_version": "9.18.1",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": true,
+          "update_method": "dietpi-update"
+        },
+        {
+          "id": "homeassistant",
+          "name": "Home Assistant Core",
+          "repo": "home-assistant/core",
+          "current_version": "2025.4.4",
+          "approved_version": "2025.4.4",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": true,
+          "update_method": "ha-upgrade"
+        },
+        {
+          "id": "aura-ui",
+          "name": "Aura UI",
+          "repo": null,
+          "current_version": "1.0.0",
+          "approved_version": "1.0.0",
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/magiccube/releases/download/v1.0.0/aura-ui.tar.gz",
+          "requires_reboot": false,
+          "update_method": "download"
+        }
+      ]
+    },
+
+    "mcdj": {
+      "model": "MCDJ",
+      "packages": [
+        {
+          "id": "squeezelite",
+          "name": "Squeezelite",
+          "repo": "ralph-irving/squeezelite",
+          "current_version": "2.0.0-1541",
+          "approved_version": "2.0.0-1541",
+          "dietpi_id": 36,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "raspotify",
+          "name": "Raspotify",
+          "repo": "dtcooper/raspotify",
+          "current_version": "0.48.1",
+          "approved_version": "0.48.1",
+          "dietpi_id": 167,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "shairport-sync",
+          "name": "Shairport-Sync",
+          "repo": "mikebrady/shairport-sync",
+          "current_version": "4.3.7",
+          "approved_version": "4.3.7",
+          "dietpi_id": 37,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "lms",
+          "name": "Lyrion Music Server",
+          "repo": "LMS-Community/slimserver",
+          "current_version": "9.1.0",
+          "approved_version": "9.1.0",
+          "dietpi_id": 35,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "dietpi",
+          "name": "DietPi",
+          "repo": "MichaIng/DietPi",
+          "current_version": "9.19.2",
+          "approved_version": "9.18.1",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": true,
+          "update_method": "dietpi-update"
+        },
+        {
+          "id": "mcdj-ui",
+          "name": "MC-DJ UI",
+          "repo": null,
+          "current_version": "1.0.0",
+          "approved_version": "1.0.0",
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/mc-dj/releases/download/v1.0.0/mcdj-ui.tar.gz",
+          "requires_reboot": false,
+          "update_method": "download"
+        }
+      ]
+    }
+  }
+}
