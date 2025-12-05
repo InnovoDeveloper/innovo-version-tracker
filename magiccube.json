@@ -65,8 +65,8 @@
       ]
     },
 
-    "aura": {
-      "model": "Aura",
+    "magiccubeaura": {
+      "model": "MagicCubeAura",
       "packages": [
         {
           "id": "lms",
