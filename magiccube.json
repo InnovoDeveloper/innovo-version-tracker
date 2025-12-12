@@ -174,7 +174,7 @@
           "update_method": "dietpi-update"
         },
         {
-          "id": "mcdj-ui",
+          "id": "mc-ui",
           "name": "MC-DJ UI",
           "repo": null,
           "current_version": "1.0.7",
