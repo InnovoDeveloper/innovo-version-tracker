@@ -177,10 +177,10 @@
           "id": "mc-ui",
           "name": "MC-DJ UI",
           "repo": null,
-          "current_version": "1.0.9",
-          "approved_version": "1.0.9",
+          "current_version": "1.0.10",
+          "approved_version": "1.0.10",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/mcdj/mc-ui-1.0.9.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/mcdj/mc-ui-1.0.10.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
