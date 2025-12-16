@@ -105,10 +105,10 @@
           "id": "aura-ui",
           "name": "Aura UI",
           "repo": null,
-          "current_version": "1.0.0",
-          "approved_version": "1.0.0",
+          "current_version": "1.0.9",
+          "approved_version": "1.0.9",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/aura/aura-ui-1.0.0.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/aura/aura-ui-1.0.9.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
