@@ -69,6 +69,39 @@
       "model": "MagicCubeAura",
       "packages": [
         {
+          "id": "squeezelite",
+          "name": "Squeezelite",
+          "repo": "ralph-irving/squeezelite",
+          "current_version": "2.0.0-1541",
+          "approved_version": "2.0.0-1541",
+          "dietpi_id": 36,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "raspotify",
+          "name": "Raspotify",
+          "repo": "dtcooper/raspotify",
+          "current_version": "0.48.1",
+          "approved_version": "0.48.1",
+          "dietpi_id": 167,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "shairport-sync",
+          "name": "Shairport-Sync",
+          "repo": "mikebrady/shairport-sync",
+          "current_version": "4.3.7",
+          "approved_version": "4.3.7",
+          "dietpi_id": 37,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
           "id": "lms",
           "name": "Lyrion Music Server",
           "repo": "LMS-Community/slimserver",
