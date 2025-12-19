@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2025-12-18T16:00:00Z"
+    "last_updated": "2025-12-19T01:40:00Z"
   },
   "devices": {
     "mcplayum": {
@@ -105,12 +105,12 @@
           "id": "lms",
           "name": "Lyrion Music Server",
           "repo": "LMS-Community/slimserver",
-          "current_version": "9.1.0",
-          "approved_version": "9.1.0",
-          "dietpi_id": 35,
-          "download_url": null,
+          "current_version": "9.1.0~1765693127",
+          "approved_version": "9.1.0~1765693127",
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.0/lyrionmusicserver_9.1.0.1765693127_all.deb",
           "requires_reboot": false,
-          "update_method": "dietpi"
+          "update_method": "dpkg"
         },
         {
           "id": "dietpi",
@@ -188,12 +188,12 @@
           "id": "lms",
           "name": "Lyrion Music Server",
           "repo": "LMS-Community/slimserver",
-          "current_version": "9.1.0",
-          "approved_version": "9.1.0",
-          "dietpi_id": 35,
-          "download_url": null,
+          "current_version": "9.1.0~1765693127",
+          "approved_version": "9.1.0~1765693127",
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.0/lyrionmusicserver_9.1.0.1765693127_all.deb",
           "requires_reboot": false,
-          "update_method": "dietpi"
+          "update_method": "dpkg"
         },
         {
           "id": "dietpi",
