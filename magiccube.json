@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2025-12-23T19:45:00Z"
+    "last_updated": "2025-12-23T21:10:00Z"
   },
   "devices": {
     "mcplayum": {
@@ -135,13 +135,13 @@
           "update_method": "ha-upgrade"
         },
         {
-          "id": "aura-ui",
-          "name": "Aura UI",
+          "id": "mc-ui",
+          "name": "MC-UI Universal",
           "repo": null,
-          "current_version": "1.1.0",
-          "approved_version": "1.1.0",
+          "current_version": "2.0.0",
+          "approved_version": "2.0.0",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/aura/aura-ui-1.1.0.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.0.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
@@ -208,12 +208,12 @@
         },
         {
           "id": "mc-ui",
-          "name": "MC-DJ UI",
+          "name": "MC-UI Universal",
           "repo": null,
-          "current_version": "1.1.0",
-          "approved_version": "1.1.0",
+          "current_version": "2.0.0",
+          "approved_version": "2.0.0",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/mcdj/mc-ui-1.1.0.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.0.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
