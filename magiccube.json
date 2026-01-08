@@ -1,15 +1,16 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2025-12-31T09:00:00Z"
+    "last_updated": "2025-01-07T00:00:00Z"
   },
   "devices": {
-    "mcplayum": {
-      "model": "MCPlayum",
+    "mcdj": {
+      "model": "MCDJ",
+      "description": "Music player system",
       "packages": [
         {
           "id": "squeezelite",
-          "name": "Squeezelite",
+          "name": "Music Player",
           "repo": "ralph-irving/squeezelite",
           "current_version": "2.0.0-1541",
           "approved_version": "2.0.0-1541",
@@ -20,7 +21,7 @@
         },
         {
           "id": "raspotify",
-          "name": "Raspotify",
+          "name": "Spotify Connect",
           "repo": "dtcooper/raspotify",
           "current_version": "0.48.1",
           "approved_version": "0.48.1",
@@ -31,67 +32,7 @@
         },
         {
           "id": "shairport-sync",
-          "name": "Shairport-Sync",
-          "repo": "mikebrady/shairport-sync",
-          "current_version": "4.3.7",
-          "approved_version": "4.3.7",
-          "dietpi_id": 37,
-          "download_url": null,
-          "requires_reboot": false,
-          "update_method": "dietpi"
-        },
-        {
-          "id": "dietpi",
-          "name": "DietPi",
-          "repo": "MichaIng/DietPi",
-          "current_version": "9.20.1",
-          "approved_version": "9.20.1",
-          "dietpi_id": null,
-          "download_url": null,
-          "requires_reboot": true,
-          "update_method": "dietpi-update"
-        },
-        {
-          "id": "mc-ui",
-          "name": "MC-UI",
-          "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.1.12",
-          "approved_version": "2.1.12",
-          "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.12.tar.gz",
-          "requires_reboot": false,
-          "update_method": "download"
-        }
-      ]
-    },
-    "magiccubeaura": {
-      "model": "MagicCubeAura",
-      "packages": [
-        {
-          "id": "squeezelite",
-          "name": "Squeezelite",
-          "repo": "ralph-irving/squeezelite",
-          "current_version": "2.0.0-1541",
-          "approved_version": "2.0.0-1541",
-          "dietpi_id": 36,
-          "download_url": null,
-          "requires_reboot": false,
-          "update_method": "dietpi"
-        },
-        {
-          "id": "raspotify",
-          "name": "Raspotify",
-          "repo": "dtcooper/raspotify",
-          "current_version": "0.48.1",
-          "approved_version": "0.48.1",
-          "dietpi_id": 167,
-          "download_url": null,
-          "requires_reboot": false,
-          "update_method": "dietpi"
-        },
-        {
-          "id": "shairport-sync",
-          "name": "Shairport-Sync",
+          "name": "AirPlay 2",
           "repo": "mikebrady/shairport-sync",
           "current_version": "4.3.7",
           "approved_version": "4.3.7",
@@ -113,7 +54,68 @@
         },
         {
           "id": "dietpi",
-          "name": "DietPi",
+          "name": "DietPi OS",
+          "repo": "MichaIng/DietPi",
+          "current_version": "9.20.1",
+          "approved_version": "9.20.1",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": true,
+          "update_method": "dietpi-update"
+        },
+        {
+          "id": "mc-ui",
+          "name": "MC-UI",
+          "repo": "InnovoDeveloper/MC-UpdateScripts",
+          "current_version": "2.1.12",
+          "approved_version": "2.1.12",
+          "dietpi_id": null,
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.12.tar.gz",
+          "requires_reboot": false,
+          "update_method": "download"
+        }
+      ]
+    },
+    "auracore": {
+      "model": "Aura Core",
+      "description": "Smart home hub (Z-Wave, KNX, MQTT, Home Assistant)",
+      "packages": [
+        {
+          "id": "zwave-js-ui",
+          "name": "Z-Wave JS UI",
+          "repo": "zwave-js/zwave-js-ui",
+          "current_version": "9.29.0",
+          "approved_version": "9.29.0",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "zwave"
+        },
+        {
+          "id": "knxd",
+          "name": "KNX Server",
+          "repo": "knxd/knxd",
+          "current_version": "0.14.68",
+          "approved_version": "0.14.68",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "apt"
+        },
+        {
+          "id": "mosquitto",
+          "name": "MQTT Broker",
+          "repo": "eclipse/mosquitto",
+          "current_version": "2.0.21",
+          "approved_version": "2.0.21",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "apt"
+        },
+        {
+          "id": "dietpi",
+          "name": "DietPi OS",
           "repo": "MichaIng/DietPi",
           "current_version": "9.20.1",
           "approved_version": "9.20.1",
@@ -124,7 +126,7 @@
         },
         {
           "id": "homeassistant",
-          "name": "Home Assistant Core",
+          "name": "Home Assistant",
           "repo": "home-assistant/core",
           "current_version": "2025.4.4",
           "approved_version": "2025.4.4",
@@ -146,12 +148,68 @@
         }
       ]
     },
-    "mcdj": {
-      "model": "MCDJ",
+    "auram": {
+      "model": "Aura M",
+      "description": "Full smart home + music system",
       "packages": [
         {
+          "id": "zwave-js-ui",
+          "name": "Z-Wave JS UI",
+          "repo": "zwave-js/zwave-js-ui",
+          "current_version": "9.29.0",
+          "approved_version": "9.29.0",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "zwave"
+        },
+        {
+          "id": "knxd",
+          "name": "KNX Server",
+          "repo": "knxd/knxd",
+          "current_version": "0.14.68",
+          "approved_version": "0.14.68",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "apt"
+        },
+        {
+          "id": "mosquitto",
+          "name": "MQTT Broker",
+          "repo": "eclipse/mosquitto",
+          "current_version": "2.0.21",
+          "approved_version": "2.0.21",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "apt"
+        },
+        {
+          "id": "dietpi",
+          "name": "DietPi OS",
+          "repo": "MichaIng/DietPi",
+          "current_version": "9.20.1",
+          "approved_version": "9.20.1",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": true,
+          "update_method": "dietpi-update"
+        },
+        {
+          "id": "homeassistant",
+          "name": "Home Assistant",
+          "repo": "home-assistant/core",
+          "current_version": "2025.4.4",
+          "approved_version": "2025.4.4",
+          "dietpi_id": null,
+          "download_url": null,
+          "requires_reboot": true,
+          "update_method": "ha-upgrade"
+        },
+        {
           "id": "squeezelite",
-          "name": "Squeezelite",
+          "name": "Music Player",
           "repo": "ralph-irving/squeezelite",
           "current_version": "2.0.0-1541",
           "approved_version": "2.0.0-1541",
@@ -162,7 +220,7 @@
         },
         {
           "id": "raspotify",
-          "name": "Raspotify",
+          "name": "Spotify Connect",
           "repo": "dtcooper/raspotify",
           "current_version": "0.48.1",
           "approved_version": "0.48.1",
@@ -173,7 +231,7 @@
         },
         {
           "id": "shairport-sync",
-          "name": "Shairport-Sync",
+          "name": "AirPlay 2",
           "repo": "mikebrady/shairport-sync",
           "current_version": "4.3.7",
           "approved_version": "4.3.7",
@@ -194,8 +252,58 @@
           "update_method": "dpkg"
         },
         {
+          "id": "mc-ui",
+          "name": "MC-UI",
+          "repo": "InnovoDeveloper/MC-UpdateScripts",
+          "current_version": "2.1.12",
+          "approved_version": "2.1.12",
+          "dietpi_id": null,
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.12.tar.gz",
+          "requires_reboot": false,
+          "update_method": "download"
+        }
+      ]
+    },
+    "mcplayum": {
+      "model": "MCPlayum",
+      "description": "Music player (no LMS)",
+      "packages": [
+        {
+          "id": "squeezelite",
+          "name": "Music Player",
+          "repo": "ralph-irving/squeezelite",
+          "current_version": "2.0.0-1541",
+          "approved_version": "2.0.0-1541",
+          "dietpi_id": 36,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "raspotify",
+          "name": "Spotify Connect",
+          "repo": "dtcooper/raspotify",
+          "current_version": "0.48.1",
+          "approved_version": "0.48.1",
+          "dietpi_id": 167,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
+          "id": "shairport-sync",
+          "name": "AirPlay 2",
+          "repo": "mikebrady/shairport-sync",
+          "current_version": "4.3.7",
+          "approved_version": "4.3.7",
+          "dietpi_id": 37,
+          "download_url": null,
+          "requires_reboot": false,
+          "update_method": "dietpi"
+        },
+        {
           "id": "dietpi",
-          "name": "DietPi",
+          "name": "DietPi OS",
           "repo": "MichaIng/DietPi",
           "current_version": "9.20.1",
           "approved_version": "9.20.1",
