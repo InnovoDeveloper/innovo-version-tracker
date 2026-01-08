@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2025-01-07T00:00:00Z"
+    "last_updated": "2026-01-07T00:00:00Z"
   },
   "devices": {
     "mcdj": {
@@ -84,8 +84,8 @@
           "id": "zwave-js-ui",
           "name": "Z-Wave JS UI",
           "repo": "zwave-js/zwave-js-ui",
-          "current_version": "9.29.0",
-          "approved_version": "9.29.0",
+          "current_version": "11.9.1",
+          "approved_version": "11.9.1",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,
@@ -128,8 +128,8 @@
           "id": "homeassistant",
           "name": "Home Assistant",
           "repo": "home-assistant/core",
-          "current_version": "2025.4.4",
-          "approved_version": "2025.4.4",
+          "current_version": "2026.1.0",
+          "approved_version": "2026.1.0",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": true,
@@ -156,8 +156,8 @@
           "id": "zwave-js-ui",
           "name": "Z-Wave JS UI",
           "repo": "zwave-js/zwave-js-ui",
-          "current_version": "9.29.0",
-          "approved_version": "9.29.0",
+          "current_version": "11.9.1",
+          "approved_version": "11.9.1",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,
@@ -200,8 +200,8 @@
           "id": "homeassistant",
           "name": "Home Assistant",
           "repo": "home-assistant/core",
-          "current_version": "2025.4.4",
-          "approved_version": "2025.4.4",
+          "current_version": "2026.1.0",
+          "approved_version": "2026.1.0",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": true,
