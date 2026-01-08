@@ -92,15 +92,15 @@
           "update_method": "zwave"
         },
         {
-          "id": "knxd",
+          "id": "knx-server",
           "name": "KNX Server",
-          "repo": "knxd/knxd",
-          "current_version": "0.14.68",
-          "approved_version": "0.14.68",
+          "repo": "InnovoDeveloper/knx-converter-server",
+          "current_version": "1.0.0",
+          "approved_version": "1.0.0",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,
-          "update_method": "apt"
+          "update_method": "custom"
         },
         {
           "id": "mosquitto",
@@ -164,15 +164,15 @@
           "update_method": "zwave"
         },
         {
-          "id": "knxd",
+          "id": "knx-server",
           "name": "KNX Server",
-          "repo": "knxd/knxd",
-          "current_version": "0.14.68",
-          "approved_version": "0.14.68",
+          "repo": "InnovoDeveloper/knx-converter-server",
+          "current_version": "1.0.0",
+          "approved_version": "1.0.0",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,
-          "update_method": "apt"
+          "update_method": "custom"
         },
         {
           "id": "mosquitto",
