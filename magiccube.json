@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-01-09T00:00:00Z"
+    "last_updated": "2026-01-10T00:00:00Z"
   },
   "devices": {
     "mcdj": {
@@ -86,6 +86,7 @@
           "repo": "zwave-js/zwave-js-ui",
           "current_version": "11.9.1",
           "approved_version": "11.9.1",
+          "approved_version_snap": "11.8.2",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,
@@ -159,6 +160,7 @@
           "repo": "zwave-js/zwave-js-ui",
           "current_version": "11.9.1",
           "approved_version": "11.9.1",
+          "approved_version_snap": "11.8.2",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,
