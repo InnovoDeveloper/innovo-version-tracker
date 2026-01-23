@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-01-10T00:00:00Z"
+    "last_updated": "2026-01-23T00:00:00Z"
   },
   "devices": {
     "mcdj": {
@@ -129,8 +129,8 @@
           "id": "homeassistant",
           "name": "Home Assistant",
           "repo": "home-assistant/core",
-          "current_version": "2026.1.0",
-          "approved_version": "2026.1.0",
+          "current_version": "2026.1.2",
+          "approved_version": "2026.1.2",
           "required_python": "3.13.2",
           "dietpi_id": null,
           "download_url": null,
@@ -203,8 +203,8 @@
           "id": "homeassistant",
           "name": "Home Assistant",
           "repo": "home-assistant/core",
-          "current_version": "2026.1.0",
-          "approved_version": "2026.1.0",
+          "current_version": "2026.1.2",
+          "approved_version": "2026.1.2",
           "required_python": "3.13.2",
           "dietpi_id": null,
           "download_url": null,
