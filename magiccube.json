@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-03-27T01:16:48Z"
+    "last_updated": "2026-04-08T00:00:00Z"
   },
   "devices": {
     "mcdj": {
@@ -56,8 +56,8 @@
           "id": "dietpi",
           "name": "DietPi OS",
           "repo": "MichaIng/DietPi",
-          "current_version": "10.1.2",
-          "approved_version": "10.1.2",
+          "current_version": "10.2.3",
+          "approved_version": "10.2.3",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": true,
@@ -67,10 +67,10 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.1.20",
-          "approved_version": "2.1.20",
+          "current_version": "2.2.0",
+          "approved_version": "2.2.0",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.20.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
@@ -118,8 +118,8 @@
           "id": "dietpi",
           "name": "DietPi OS",
           "repo": "MichaIng/DietPi",
-          "current_version": "10.1.2",
-          "approved_version": "10.1.2",
+          "current_version": "10.2.3",
+          "approved_version": "10.2.3",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": true,
@@ -141,10 +141,10 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.1.20",
-          "approved_version": "2.1.20",
+          "current_version": "2.2.0",
+          "approved_version": "2.2.0",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.20.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
@@ -192,8 +192,8 @@
           "id": "dietpi",
           "name": "DietPi OS",
           "repo": "MichaIng/DietPi",
-          "current_version": "10.1.2",
-          "approved_version": "10.1.2",
+          "current_version": "10.2.3",
+          "approved_version": "10.2.3",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": true,
@@ -259,10 +259,10 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.1.20",
-          "approved_version": "2.1.20",
+          "current_version": "2.2.0",
+          "approved_version": "2.2.0",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.20.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
@@ -309,8 +309,8 @@
           "id": "dietpi",
           "name": "DietPi OS",
           "repo": "MichaIng/DietPi",
-          "current_version": "10.1.2",
-          "approved_version": "10.1.2",
+          "current_version": "10.2.3",
+          "approved_version": "10.2.3",
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": true,
@@ -320,10 +320,10 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.1.20",
-          "approved_version": "2.1.20",
+          "current_version": "2.2.0",
+          "approved_version": "2.2.0",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.20.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
