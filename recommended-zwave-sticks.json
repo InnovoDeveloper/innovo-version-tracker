@@ -10,7 +10,7 @@
       "vid": "1a86",
       "pid": "55d4",
       "chip": "CH340 (QinHeng)",
-      "buy_url": "https://www.getzooz.com/zooz-800-series-z-wave-long-range-s2-stick-zst39-lr/",
+      "buy_url": "https://innovo.net/zwave",
       "notes": null,
       "deprecated": false,
       "recommended": true
@@ -22,8 +22,8 @@
       "vid": "303a",
       "pid": "4001",
       "chip": "Espressif ESP32",
-      "buy_url": "https://www.nabucasa.com/",
-      "notes": "Same vendor (303a) as Nabu Casa ZBT-2 Zigbee dongle (303a:831a) — the udev rule MUST match specific PID 4001 to avoid false-creating /dev/zwave for the Zigbee dongle.",
+      "buy_url": "https://innovo.net/zwave",
+      "notes": "Same vendor (303a) as Nabu Casa ZBT-2 Zigbee dongle (303a:831a) \u00e2\u20ac\u201d the udev rule MUST match specific PID 4001 to avoid false-creating /dev/zwave for the Zigbee dongle.",
       "deprecated": false,
       "recommended": true
     },
@@ -34,7 +34,7 @@
       "vid": "10c4",
       "pid": "ea60",
       "chip": "Silicon Labs CP210x",
-      "buy_url": "https://www.getzooz.com/zooz-700-series-z-wave-plus-s2-stick-zst10-700/",
+      "buy_url": "https://innovo.net/zwave",
       "notes": null,
       "deprecated": false,
       "recommended": true
@@ -46,7 +46,7 @@
       "vid": "0658",
       "pid": "0280",
       "chip": "Silicon Labs",
-      "buy_url": "https://aeotec.com/products/aeotec-z-stick-7/",
+      "buy_url": "https://innovo.net/zwave",
       "notes": "EU version not recommended on Aura platform.",
       "deprecated": false,
       "recommended": true
@@ -58,7 +58,7 @@
       "vid": "10c4",
       "pid": "ea60",
       "chip": "Silicon Labs CP210x",
-      "buy_url": "https://homeseer.com/",
+      "buy_url": "https://innovo.net/zwave",
       "notes": null,
       "deprecated": false,
       "recommended": true
@@ -70,7 +70,7 @@
       "vid": "10c4",
       "pid": "ea60",
       "chip": "Silicon Labs CP210x",
-      "buy_url": null,
+      "buy_url": "https://innovo.net/zwave",
       "notes": "Bare module; typically OEM'd into other branded sticks.",
       "deprecated": false,
       "recommended": true
@@ -82,8 +82,8 @@
       "vid": "0658",
       "pid": "0200",
       "chip": "Silicon Labs",
-      "buy_url": "https://aeotec.com/",
-      "notes": "Legacy 500-series — supported but newer 700/800 sticks recommended.",
+      "buy_url": "https://innovo.net/zwave",
+      "notes": "Legacy 500-series \u00e2\u20ac\u201d supported but newer 700/800 sticks recommended.",
       "deprecated": false,
       "recommended": false
     },
@@ -94,7 +94,7 @@
       "vid": "10c4",
       "pid": "8a2a",
       "chip": "Sigma Designs",
-      "buy_url": null,
+      "buy_url": "https://innovo.net/zwave",
       "notes": "Combo Zigbee+Z-Wave stick. Z-Wave radio is 500-series Sigma Designs. Discontinued; supported for legacy installs.",
       "deprecated": false,
       "recommended": false
