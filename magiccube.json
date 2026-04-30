@@ -69,9 +69,9 @@
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
           "current_version": "2.1.15",
-          "approved_version": "2.2.1",
+          "approved_version": "2.1.15",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.1.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.15.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
@@ -323,9 +323,9 @@
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
           "current_version": "2.1.15",
-          "approved_version": "2.2.1",
+          "approved_version": "2.1.15",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.1.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.1.15.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
