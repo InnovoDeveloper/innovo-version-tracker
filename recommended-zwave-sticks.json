@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "updated": "2026-04-29",
+  "notes": "Single source of truth for V1/V2/V2.1 Z-Wave stick support. Used by MCUI recommended list, udev rule generation, and adapter detection regex. See ./README.md for consumption pattern.",
+  "sticks": [
+    {
+      "name": "Zooz ZST39 LR",
+      "subtitle": "800 Series Long Range",
+      "series": "800",
+      "vid": "1a86",
+      "pid": "55d4",
+      "chip": "CH340 (QinHeng)",
+      "buy_url": "https://www.getzooz.com/zooz-800-series-z-wave-long-range-s2-stick-zst39-lr/",
+      "notes": null,
+      "deprecated": false,
+      "recommended": true
+    },
+    {
+      "name": "Nabu Casa Connect ZWA-2",
+      "subtitle": "800 Series",
+      "series": "800",
+      "vid": "303a",
+      "pid": "4001",
+      "chip": "Espressif ESP32",
+      "buy_url": "https://www.nabucasa.com/",
+      "notes": "Same vendor (303a) as Nabu Casa ZBT-2 Zigbee dongle (303a:831a) — the udev rule MUST match specific PID 4001 to avoid false-creating /dev/zwave for the Zigbee dongle.",
+      "deprecated": false,
+      "recommended": true
+    },
+    {
+      "name": "Zooz ZST10 700",
+      "subtitle": "S2 Stick 700 Series",
+      "series": "700",
+      "vid": "10c4",
+      "pid": "ea60",
+      "chip": "Silicon Labs CP210x",
+      "buy_url": "https://www.getzooz.com/zooz-700-series-z-wave-plus-s2-stick-zst10-700/",
+      "notes": null,
+      "deprecated": false,
+      "recommended": true
+    },
+    {
+      "name": "Aeotec Z-Stick 7",
+      "subtitle": "ZWA010, 700 Series",
+      "series": "700",
+      "vid": "0658",
+      "pid": "0280",
+      "chip": "Silicon Labs",
+      "buy_url": "https://aeotec.com/products/aeotec-z-stick-7/",
+      "notes": "EU version not recommended on Aura platform.",
+      "deprecated": false,
+      "recommended": true
+    },
+    {
+      "name": "HomeSeer SmartStick+ G3",
+      "subtitle": "700 Series",
+      "series": "700",
+      "vid": "10c4",
+      "pid": "ea60",
+      "chip": "Silicon Labs CP210x",
+      "buy_url": "https://homeseer.com/",
+      "notes": null,
+      "deprecated": false,
+      "recommended": true
+    },
+    {
+      "name": "Silicon Labs UZB-7",
+      "subtitle": "SLUSB7000A / SLUSB001A",
+      "series": "700",
+      "vid": "10c4",
+      "pid": "ea60",
+      "chip": "Silicon Labs CP210x",
+      "buy_url": null,
+      "notes": "Bare module; typically OEM'd into other branded sticks.",
+      "deprecated": false,
+      "recommended": true
+    },
+    {
+      "name": "Aeotec Z-Stick Gen5",
+      "subtitle": "ZW090, 500 Series",
+      "series": "500",
+      "vid": "0658",
+      "pid": "0200",
+      "chip": "Silicon Labs",
+      "buy_url": "https://aeotec.com/",
+      "notes": "Legacy 500-series — supported but newer 700/800 sticks recommended.",
+      "deprecated": false,
+      "recommended": false
+    },
+    {
+      "name": "Nortek HUSBZB-1 (Z-Wave side)",
+      "subtitle": "Sigma Designs ZM5101",
+      "series": "500",
+      "vid": "10c4",
+      "pid": "8a2a",
+      "chip": "Sigma Designs",
+      "buy_url": null,
+      "notes": "Combo Zigbee+Z-Wave stick. Z-Wave radio is 500-series Sigma Designs. Discontinued; supported for legacy installs.",
+      "deprecated": false,
+      "recommended": false
+    }
+  ]
+}
