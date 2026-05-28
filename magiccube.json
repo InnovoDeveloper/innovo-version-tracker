@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-05-24T15:53:58Z"
+    "last_updated": "2026-05-28T23:55:00Z"
   },
   "devices": {
     "mcdj": {
@@ -47,9 +47,10 @@
           "repo": "LMS-Community/slimserver",
           "current_version": "9.1.0",
           "approved_version": "9.1.0",
-          "build": "1771315634",
+          "release_type": "upstream-tagged-stable",
+          "sha256": "df2788ed5372fb5e739324c460bc324d3cf97d9971516543b6c7e9b553d6f3e4",
           "dietpi_id": null,
-          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.0-1771315634/lyrionmusicserver_9.1.0_arm.deb",
+          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.0-stable/lyrionmusicserver_9.1.0_arm.deb",
           "requires_reboot": false,
           "update_method": "dpkg"
         },
@@ -251,9 +252,10 @@
           "repo": "LMS-Community/slimserver",
           "current_version": "9.1.0",
           "approved_version": "9.1.0",
-          "build": "1771315634",
+          "release_type": "upstream-tagged-stable",
+          "sha256": "df2788ed5372fb5e739324c460bc324d3cf97d9971516543b6c7e9b553d6f3e4",
           "dietpi_id": null,
-          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.0-1771315634/lyrionmusicserver_9.1.0_arm.deb",
+          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.0-stable/lyrionmusicserver_9.1.0_arm.deb",
           "requires_reboot": false,
           "update_method": "dpkg"
         },
