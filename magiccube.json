@@ -70,12 +70,13 @@
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
           "current_version": "2.2.10",
-          "approved_version": "2.2.10",
+          "approved_version": "2.3.0",
           "sha256": "c825b1b38bc4d683407f74bef30a449d5e63cb43cfc651d816aaa73d1dc17935",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.10.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.0.tar.gz",
           "requires_reboot": false,
-          "update_method": "download"
+          "update_method": "download",
+          "min_device_version": "2.3"
         }
       ]
     },
@@ -145,10 +146,10 @@
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
           "current_version": "2.2.10",
-          "approved_version": "2.2.10",
+          "approved_version": "2.3.0",
           "sha256": "c825b1b38bc4d683407f74bef30a449d5e63cb43cfc651d816aaa73d1dc17935",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.10.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
@@ -266,10 +267,10 @@
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
           "current_version": "2.2.10",
-          "approved_version": "2.2.10",
+          "approved_version": "2.3.0",
           "sha256": "c825b1b38bc4d683407f74bef30a449d5e63cb43cfc651d816aaa73d1dc17935",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.10.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
@@ -328,10 +329,10 @@
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
           "current_version": "2.2.10",
-          "approved_version": "2.2.10",
+          "approved_version": "2.3.0",
           "sha256": "c825b1b38bc4d683407f74bef30a449d5e63cb43cfc651d816aaa73d1dc17935",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.2.10.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.0.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
