@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-08-09T20:45:00Z"
+    "last_updated": "2026-08-14T00:00:00Z"
   },
   "devices": {
     "mcdj": {
@@ -69,11 +69,11 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.3.12",
-          "approved_version": "2.3.15",
-          "sha256": "a9d6f08f8bb36e6ad835e1c3cde8043b2b24be46b34e028593d6b32ccdc580c7",
+          "current_version": "2.3.15",
+          "approved_version": "2.3.16",
+          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.15.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
           "requires_reboot": false,
           "update_method": "download",
           "min_device_version": "2.3"
@@ -146,10 +146,10 @@
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
           "current_version": "2.3.11",
-          "approved_version": "2.3.11",
-          "sha256": "a9d6f08f8bb36e6ad835e1c3cde8043b2b24be46b34e028593d6b32ccdc580c7",
+          "approved_version": "2.3.16",
+          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.11.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         },
@@ -165,6 +165,20 @@
           "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.1-stable/lyrionmusicserver_9.1.1_arm.deb",
           "requires_reboot": false,
           "update_method": "dpkg"
+        },
+        {
+          "id": "spotify",
+          "name": "Aura Spotify-in-LMS",
+          "repo": "InnovoDeveloper/MC-UpdateScripts",
+          "current_version": "0.1.0",
+          "approved_version": "0.1.0",
+          "sha256": null,
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/MC-UpdateScripts/tree/main/cloud-scripts/aura-spotify",
+          "runtime_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/aura-spotify-0.1.0/aura-electron-runtime-0.1.0.tgz",
+          "runtime_sha256": "b4d956ee1674fcd11e6a8fe48efc2ecd6547e196e16a65d1e1e8d43aeb2a4166",
+          "requires_reboot": false,
+          "update_method": "custom"
         }
       ]
     },
@@ -279,13 +293,27 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.3.12",
-          "approved_version": "2.3.15",
-          "sha256": "a9d6f08f8bb36e6ad835e1c3cde8043b2b24be46b34e028593d6b32ccdc580c7",
+          "current_version": "2.3.15",
+          "approved_version": "2.3.16",
+          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.15.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
+        },
+        {
+          "id": "spotify",
+          "name": "Aura Spotify-in-LMS",
+          "repo": "InnovoDeveloper/MC-UpdateScripts",
+          "current_version": "0.1.0",
+          "approved_version": "0.1.0",
+          "sha256": null,
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/MC-UpdateScripts/tree/main/cloud-scripts/aura-spotify",
+          "runtime_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/aura-spotify-0.1.0/aura-electron-runtime-0.1.0.tgz",
+          "runtime_sha256": "b4d956ee1674fcd11e6a8fe48efc2ecd6547e196e16a65d1e1e8d43aeb2a4166",
+          "requires_reboot": false,
+          "update_method": "custom"
         }
       ]
     },
@@ -341,11 +369,11 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.3.12",
-          "approved_version": "2.3.15",
-          "sha256": "a9d6f08f8bb36e6ad835e1c3cde8043b2b24be46b34e028593d6b32ccdc580c7",
+          "current_version": "2.3.15",
+          "approved_version": "2.3.16",
+          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.15.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
