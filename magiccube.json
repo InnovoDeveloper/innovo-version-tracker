@@ -152,6 +152,19 @@
           "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.11.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
+        },
+        {
+          "id": "lms",
+          "name": "Lyrion Music Server",
+          "repo": "LMS-Community/slimserver",
+          "current_version": "9.1.1",
+          "approved_version": "9.1.1",
+          "release_type": "upstream-tagged-stable",
+          "sha256": "3237ec9a2d514ea9cc1e0044ad4233af87cdad05851ee9df481f3e507a4ce2b5",
+          "dietpi_id": null,
+          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.1-stable/lyrionmusicserver_9.1.1_arm.deb",
+          "requires_reboot": false,
+          "update_method": "dpkg"
         }
       ]
     },
