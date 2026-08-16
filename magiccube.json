@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-08-14T00:00:00Z"
+    "last_updated": "2026-08-16T00:00:00Z"
   },
   "devices": {
     "mcdj": {
@@ -69,11 +69,11 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.3.15",
-          "approved_version": "2.3.16",
-          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
+          "current_version": "2.3.16",
+          "approved_version": "2.3.17",
+          "sha256": "8380105e43ce422d781cfc1cf93ed5bf6bbcaf54105d34a19c7caea9d402d57a",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.17.tar.gz",
           "requires_reboot": false,
           "update_method": "download",
           "min_device_version": "2.3"
@@ -145,11 +145,11 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.3.11",
-          "approved_version": "2.3.16",
-          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
+          "current_version": "2.3.16",
+          "approved_version": "2.3.17",
+          "sha256": "8380105e43ce422d781cfc1cf93ed5bf6bbcaf54105d34a19c7caea9d402d57a",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.17.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         },
@@ -293,11 +293,11 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.3.15",
-          "approved_version": "2.3.16",
-          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
+          "current_version": "2.3.16",
+          "approved_version": "2.3.17",
+          "sha256": "8380105e43ce422d781cfc1cf93ed5bf6bbcaf54105d34a19c7caea9d402d57a",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.17.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         },
@@ -369,11 +369,11 @@
           "id": "mc-ui",
           "name": "MC-UI",
           "repo": "InnovoDeveloper/MC-UpdateScripts",
-          "current_version": "2.3.15",
-          "approved_version": "2.3.16",
-          "sha256": "bd5813d18ef353d7f77365d91d6abdcc26368a5cf37bbc3f590608cfe0dbd86c",
+          "current_version": "2.3.16",
+          "approved_version": "2.3.17",
+          "sha256": "8380105e43ce422d781cfc1cf93ed5bf6bbcaf54105d34a19c7caea9d402d57a",
           "dietpi_id": null,
-          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.16.tar.gz",
+          "download_url": "https://raw.githubusercontent.com/InnovoDeveloper/innovo-version-tracker/main/releases/universal/mc-ui-2.3.17.tar.gz",
           "requires_reboot": false,
           "update_method": "download"
         }
