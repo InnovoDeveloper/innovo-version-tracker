@@ -50,7 +50,7 @@
           "release_type": "upstream-tagged-stable",
           "sha256": "3237ec9a2d514ea9cc1e0044ad4233af87cdad05851ee9df481f3e507a4ce2b5",
           "dietpi_id": null,
-          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.1-stable/lyrionmusicserver_9.1.1_arm.deb",
+          "download_url": "https://magiccube-public.s3.us-west-2.amazonaws.com/shared/lms/lyrionmusicserver_9.1.1_arm.deb",
           "requires_reboot": false,
           "update_method": "dpkg"
         },
@@ -162,7 +162,7 @@
           "release_type": "upstream-tagged-stable",
           "sha256": "3237ec9a2d514ea9cc1e0044ad4233af87cdad05851ee9df481f3e507a4ce2b5",
           "dietpi_id": null,
-          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.1-stable/lyrionmusicserver_9.1.1_arm.deb",
+          "download_url": "https://magiccube-public.s3.us-west-2.amazonaws.com/shared/lms/lyrionmusicserver_9.1.1_arm.deb",
           "requires_reboot": false,
           "update_method": "dpkg"
         },
@@ -175,7 +175,7 @@
           "sha256": null,
           "dietpi_id": null,
           "download_url": "https://github.com/InnovoDeveloper/MC-UpdateScripts/tree/main/cloud-scripts/aura-spotify",
-          "runtime_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/aura-spotify-0.1.0/aura-electron-runtime-0.1.0.tgz",
+          "runtime_url": "https://magiccube-public.s3.us-west-2.amazonaws.com/aarch64/electron/aura-electron-runtime-0.1.0.tgz",
           "runtime_sha256": "b4d956ee1674fcd11e6a8fe48efc2ecd6547e196e16a65d1e1e8d43aeb2a4166",
           "requires_reboot": false,
           "update_method": "custom"
@@ -285,7 +285,7 @@
           "release_type": "upstream-tagged-stable",
           "sha256": "3237ec9a2d514ea9cc1e0044ad4233af87cdad05851ee9df481f3e507a4ce2b5",
           "dietpi_id": null,
-          "download_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/lms-9.1.1-stable/lyrionmusicserver_9.1.1_arm.deb",
+          "download_url": "https://magiccube-public.s3.us-west-2.amazonaws.com/shared/lms/lyrionmusicserver_9.1.1_arm.deb",
           "requires_reboot": false,
           "update_method": "dpkg"
         },
@@ -310,7 +310,7 @@
           "sha256": null,
           "dietpi_id": null,
           "download_url": "https://github.com/InnovoDeveloper/MC-UpdateScripts/tree/main/cloud-scripts/aura-spotify",
-          "runtime_url": "https://github.com/InnovoDeveloper/innovo-version-tracker/releases/download/aura-spotify-0.1.0/aura-electron-runtime-0.1.0.tgz",
+          "runtime_url": "https://magiccube-public.s3.us-west-2.amazonaws.com/aarch64/electron/aura-electron-runtime-0.1.0.tgz",
           "runtime_sha256": "b4d956ee1674fcd11e6a8fe48efc2ecd6547e196e16a65d1e1e8d43aeb2a4166",
           "requires_reboot": false,
           "update_method": "custom"
