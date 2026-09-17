@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-08-16T00:00:00Z"
+    "last_updated": "2026-09-16T00:00:00Z"
   },
   "devices": {
     "mcdj": {
@@ -91,6 +91,8 @@
           "current_version": "11.9.1",
           "approved_version": "11.9.1",
           "approved_version_snap": "11.8.2",
+          "approved_version_snap_gated": "11.21.1",
+          "approved_version_snap_min_patch": 132,
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,
@@ -193,6 +195,8 @@
           "current_version": "11.9.1",
           "approved_version": "11.9.1",
           "approved_version_snap": "11.8.2",
+          "approved_version_snap_gated": "11.21.1",
+          "approved_version_snap_min_patch": 132,
           "dietpi_id": null,
           "download_url": null,
           "requires_reboot": false,

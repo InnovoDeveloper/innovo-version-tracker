@@ -97,6 +97,22 @@ The manifest is downloaded by devices during patching and updates.
 
 ---
 
+## Z-Wave JS UI snap versions (Aura / Aura-M)
+
+`zwave-js-ui` carries three version keys for snap installs:
+
+| Key | Read by | Meaning |
+|---|---|---|
+| `approved_version_snap` | every device | Version offered on the Software Update page. Kept low (11.8.2) so devices on the old updater are never offered a store version they can't install. |
+| `approved_version_snap_gated` | devices with patch 132 applied OK | Version offered to devices whose updater follows the newest stable snap-store channel (patches 130 + 131 + 132). |
+| `approved_version_snap_min_patch` | same | Patch that must be applied OK before the gated version is used (currently 132). |
+
+To offer a newer Z-Wave JS UI, raise `approved_version_snap_gated` to a
+version that is published on a `*/stable` channel in the snap store
+(`snap info zwave-js-ui`). Leave `approved_version_snap` alone.
+
+---
+
 ## Related Repositories
 
 | Repository | Purpose |
