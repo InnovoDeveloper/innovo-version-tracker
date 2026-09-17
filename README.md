@@ -111,6 +111,26 @@ To offer a newer Z-Wave JS UI, raise `approved_version_snap_gated` to a
 version that is published on a `*/stable` channel in the snap store
 (`snap info zwave-js-ui`). Leave `approved_version_snap` alone.
 
+## Patch-gated versions for other packages (Aura / Aura-M)
+
+The same idea applies to every package via two generic keys, read only by the
+executors that MC-UpdateScripts patch 132 delivers:
+
+| Key | Meaning |
+|---|---|
+| `approved_version` | What every device sees. Kept at the old value so devices on the pre-132 update scripts are not offered something their updater cannot install safely. |
+| `approved_version_gated` | Offered only when `approved_version_min_patch` applied OK on that device. |
+| `approved_version_min_patch` | The patch that must be applied OK first (132 today). |
+| `requires_zwave_schema` | Home Assistant only: the minimum Z-Wave JS server API schema the target needs (47 for HA >= 2026.6). The updater brings Z-Wave up first and aborts if it cannot. |
+
+Gated keys must come **after** `approved_version` in the JSON: `audit-device.sh`
+matches the first line containing `approved_version`.
+
+To offer a newer version: raise `approved_version_gated` (and bump
+`approved_version_min_patch` if a newer patch is needed to install it safely).
+The pinned target is what gets installed — no executor installs "latest" any
+more.
+
 ---
 
 ## Related Repositories
