@@ -104,8 +104,8 @@ The manifest is downloaded by devices during patching and updates.
 | Key | Read by | Meaning |
 |---|---|---|
 | `approved_version_snap` | every device | Version offered on the Software Update page. Kept low (11.8.2) so devices on the old updater are never offered a store version they can't install. |
-| `approved_version_snap_gated` | devices with patch 132 applied OK | Version offered to devices whose updater follows the newest stable snap-store channel (patches 130 + 131 + 132). |
-| `approved_version_snap_min_patch` | same | Patch that must be applied OK before the gated version is used (currently 132). |
+| `approved_version_snap_gated` | devices with patch 131 applied OK | Version offered to devices whose updater follows the newest stable snap-store channel (patch 131, which requires 130). |
+| `approved_version_snap_min_patch` | same | Patch that must be applied OK before the gated version is used (currently 131). |
 
 To offer a newer Z-Wave JS UI, raise `approved_version_snap_gated` to a
 version that is published on a `*/stable` channel in the snap store
