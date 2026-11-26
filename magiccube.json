@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Innovo Software Version Tracking",
-    "last_updated": "2026-11-16T12:00:00Z"
+    "last_updated": "2026-11-26T02:30:00Z"
   },
   "devices": {
     "mcdj": {
@@ -130,7 +130,7 @@
           "repo": "MichaIng/DietPi",
           "current_version": "10.4.2",
           "approved_version": "10.4.2",
-          "approved_version_gated": "10.8.2",
+          "approved_version_gated": "10.9.3",
           "approved_version_min_patch": 132,
           "dietpi_id": null,
           "download_url": null,
@@ -143,8 +143,9 @@
           "repo": "home-assistant/core",
           "current_version": "2026.5.4",
           "approved_version": "2026.5.4",
-          "approved_version_gated": "2026.11.2",
-          "approved_version_min_patch": 140,
+          "approved_version_gated": "2026.11.3",
+          "approved_version_min_patch": 141,
+          "approved_version_min_schema": 102,
           "requires_zwave_schema": 51,
           "required_python": "3.14.5",
           "dietpi_id": null,
@@ -243,7 +244,7 @@
           "repo": "MichaIng/DietPi",
           "current_version": "10.4.2",
           "approved_version": "10.4.2",
-          "approved_version_gated": "10.8.2",
+          "approved_version_gated": "10.9.3",
           "approved_version_min_patch": 132,
           "dietpi_id": null,
           "download_url": null,
@@ -256,8 +257,9 @@
           "repo": "home-assistant/core",
           "current_version": "2026.5.4",
           "approved_version": "2026.5.4",
-          "approved_version_gated": "2026.11.2",
-          "approved_version_min_patch": 140,
+          "approved_version_gated": "2026.11.3",
+          "approved_version_min_patch": 141,
+          "approved_version_min_schema": 102,
           "requires_zwave_schema": 51,
           "required_python": "3.14.5",
           "dietpi_id": null,
